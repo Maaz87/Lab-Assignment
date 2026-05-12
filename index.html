@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Lab Assignment</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h1{
+            text-align: center;
+            color: blue;
+        }
+        #login, #sign-up{
+            display: flex;
+            flex-direction: column;
+            background-color: burlywood;
+            padding: 10px;
+        }
+
+        button{
+            padding: 10px 20px;
+            margin: 10px 20px;
+            background-color: aqua;
+            border: none;
+            border-radius: 8px;
+        }
+        label{
+            font-size: 20px;
+        }
+        input{
+            font-size: 15px;
+        }
+        h5{
+            
+            text-align: end;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <form action="" id="login">
+        <h1 >Login</h1>
+        <label for="lemail">Email:</label> <br>
+       <input type="email" name="lemail" id="email" placeholder="Enter Email" required > <br>
+       <label for="lpassword">Password:</label> <br>
+       <input type="password" name="lpassword" id="Password" placeholder="Enter Password" required> <br>
+        <button type="submit">Login</button>
+        <h5 class="signup">
+            <a href="">Dont have an Account? Sign-Up</a>
+        </h5>
+    </form>
+
+    
+    <form  action="" id="sign-up">
+        <h1>Sign Up</h1>
+        <label for="fname">First Name:</label> <br> 
+        <input type="text" name="fname" id="first_name" placeholder="Enter First Name" required > <br>
+
+        <label for="fname">First Name:</label> <br> 
+        <input type="text" name="fname" id="first_name" placeholder="Enter First Name" required > <br>
+
+        <label for="semail">First Name:</label> <br> 
+        <input type="text" name="semail" id="email" placeholder="Enter Email" required > <br>
+
+        <label for="spassword">Password:</label> <br> 
+        <input type="text" name="spassword" id="password" placeholder="Enter Password" required > <br>
+
+        <button type="submit">Sign Up</button>
+        <h5 class="click"> 
+            <a href="">Already have an account?Login</a>
+        </h5>
+    </form>
+
+
+</body>
+</html>
